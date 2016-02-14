@@ -1,0 +1,51 @@
+
+密码都为123
+后台superuser：(auth system)
+shiyang
+shiyang@qq.com
+123
+
+
+python manage.py syncdb
+cd /home/asus/FYPFinal/Code/Local/ExamPapers
+python manage.py runserver
+
+
+sudo apt-get install python-pip
+sudo apt-get install python-dev
+sudo pip install Whoosh==2.5.5
+sudo pip install NLTK==2.0.4 
+cd /home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers
+python manage.py syncdb
+
+mysql -u root -p 
+
+source /home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers/insert_data.sql
+mysql -h localhost -u root -p examquestions</home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers/insert_data.sql
+
+python manage.py runserver
+drop database examquestions; 
+create database examquestions;
+use examquestions;
+/home/asus/FYPFinal/Database/AdditionalMaths
+source /home/asus/FYPFinal/Database/AdditionalMaths/1-Topic.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/2-Subtopic.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/3-Paperset.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/4-Paper.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/5-Image.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/6-Question.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/7-Answer.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/8-Tag_Definitions.sql
+source /home/asus/FYPFinal/Database/AdditionalMaths/9-Tags.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/1. subject, topic.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/2. paperset.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/3. paper.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/4. questions.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/5. answers.sql
+source /home/asus/FYPFinal/Database/ElementaryMaths/6. images.sql
+
+source /home/asus/FYPFinal/Database/ElementaryMaths/
+
+
+
+

@@ -1,0 +1,32 @@
+﻿密码都为123
+
+pip install python-pip
+pip install python-dev
+pip install Whoosh==2.5.5
+pip install NLTK==2.0.4 
+cd /home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers
+python manage.py syncdb
+
+mysql -u root -p 
+
+source /home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers/insert_data.sql
+mysql -h localhost -u root -p examquestions</home/asus/MathAnalyzer/MathAnalyzer-Local/ExamPapers/insert_data.sql
+
+python manage.py runserver
+
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\1-Topic.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\2-Subtopic.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\3-Paperset.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\4-Paper.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\5-Image.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\6-Question.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\7-Answer.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\8-Tag_Definitions.sql
+source C:\Users\User\Desktop\FYPFinal\Database\AdditionalMaths\9-Tags.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\1. subject, topic.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\2. paperset.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\3. paper.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\4. questions.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\5. answers.sql
+source C:\Users\User\Desktop\FYPFinal\Database\ElementaryMaths\6. images.sql
+
